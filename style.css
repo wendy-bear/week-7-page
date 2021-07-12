@@ -133,7 +133,7 @@ h2 {
 
 .article-cont {
     display: grid;
-    width: 1200px;
+    width: 100%;
     grid-template: 100px / repeat(auto-fit, minmax(100px, 1fr));
     margin: 0 auto;
     justify-content: center;
@@ -392,6 +392,13 @@ h4 {
 }
 
 @media screen and (min-width: 1024px) {
+
+    a,
+    .navH {
+        color: #214E41;
+        padding: 25px;
+    }
+
     .header-cont {
         width: 100%;
         height: 90px;
@@ -1208,6 +1215,7 @@ h4 {
         letter-spacing: 0.05px;
         text-transform: uppercase;
         color: #43806C;
+        padding: 10px;
     }
 
     .employers-text {
@@ -1217,12 +1225,13 @@ h4 {
         font-size: 0.8em;
         line-height: 15px;
         color: #214E41;
+        padding: 5px;
     }
 
     .employers-cont {
         display: grid;
         height: 370px;
-        grid-template: 370px / repeat(3, 30%);
+        grid-template: 370px / repeat(3, 33%);
         justify-content: center;
         align-content: center;
     }
